@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content%}
+    <!-- blog(lowercase of model class): the single item for more details -->
+    <!-- or even we can use (object) instead of (blog)-->
+    <h2>{{ blog.title }}</h2>
+    <p>{{ blog.body }}</p>
+{% endblock content%}
